@@ -69,6 +69,12 @@ h1, h2, h3, h4, h5 {
 .container {
 	max-width: 500px;
 }
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
 /* ====================================HEADER=======================================*/
 header {
 	display: flex;
@@ -94,4 +100,24 @@ header nav a {
 	padding: 19.5px 0;
 }
 /* ====================================CTA=======================================*/
-
+.cta {
+	display: flex;
+	justify-content: center;
+	padding-top: 57px;
+	padding-bottom: 73px;
+}
+.cta img {
+	display: none;
+}
+.cta .cta-text {
+	text-align: center;
+}
+.cta h1 {
+	padding-bottom: 9px;
+}
+.cta button {
+	background-color: white;
+	border: 1px solid black;
+	font-size: 16px;
+	padding: 7px 43px;
+}
