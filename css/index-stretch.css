@@ -177,7 +177,7 @@ footer{
 }
 
 @media (min-width:500px){
-	.container {max-width: 800px;}
+	.container {max-width: 500px;}
 	/* ====================================HEADER TABLET=======================================*/
 	
 	
@@ -230,5 +230,33 @@ footer{
 		
 		padding-bottom: 60px;
 	}
+}
+
+@media (min-width:800px){
+	.container {max-width: 900px;}
+	/* ====================================HEADER TABLET=======================================*/
+	header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	header nav {
+		padding-right: 10%;
+	}
+	header img {order:2;}
 	
+	/* ====================================CTA=======================================*/
+	.cta {
+		padding-bottom: 73px;
+		justify-content: space-between;
+	}
+	.cta img {display: block;}
+	.cta h1 {
+		padding-top:50px;
+		font-size: 74px;
+		padding-bottom: 8px;
+		letter-spacing: 4px;
+	}
+	
+	/* ====================================MAIN CONTENT=======================================*/
+	.main-content .bottom-content{padding-top: 10px;}
 }
