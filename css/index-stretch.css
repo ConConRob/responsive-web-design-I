@@ -175,3 +175,60 @@ footer{
 	margin: 32px 0 5px 0;
 	font-size: 16px;
 }
+
+@media (min-width:500px){
+	.container {max-width: 800px;}
+	/* ====================================HEADER TABLET=======================================*/
+	
+	
+	header nav {
+		flex-direction: row;
+	}
+	header nav a {
+		justify-content: space-between;
+		font-size: 14px;
+		border: none;
+		padding: 19.5px 0;
+	}
+	/* ====================================CTA=======================================*/
+	.cta {
+		padding-bottom: 73px;
+	}
+	.cta h1 {
+		padding-bottom: 15px;
+	}
+	.cta button {
+		padding: 6px 43px;
+	}
+	/* ====================================MAIN CONTENT=======================================*/
+	.main-content{
+		width: 97.5%;
+		padding-top: 35px;
+	}
+	
+	.top-content{
+		display: flex;
+		
+	}
+	.top-content .text-content {
+		width: 50%;
+		padding: 0 12px;
+		line-height: 1.1;
+	}
+	.top-content .text-content h4{padding-bottom: 4px; }
+	.main-content img { padding-top: 32px; }
+	.text-content p{ padding: 0; }
+
+	.main-content .bottom-content{
+		display: flex;
+	}
+	.bottom-content .text-content {
+		padding: 0 12px;
+		
+	}
+	.main-content .bottom-content p{
+		
+		padding-bottom: 60px;
+	}
+	
+}
